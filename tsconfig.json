@@ -8,6 +8,7 @@
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "module": "es2020",
+    "target": "ES2022",
     "moduleResolution": "node",
     "importHelpers": true,
     "typeRoots": ["node_modules/@types"],
@@ -24,7 +25,6 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true,
-    "strictTemplates": true,
-    "enableIvy": true
+    "strictTemplates": true
   }
 }
