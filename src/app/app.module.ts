@@ -27,6 +27,7 @@ import { RowGroupingComponent } from './basic/row-grouping.component';
 // -- Themes
 import { BootstrapThemeComponent } from './basic/bootstrap.component';
 import { DarkThemeComponent } from './basic/dark-theme.component';
+import { MaterialThemeComponent } from './basic/material.component';
 
 // -- Paging
 import { ClientPagingComponent } from './paging/paging-client.component';
@@ -122,6 +123,7 @@ import { CommonModule } from '@angular/common';
     FooterDemoComponent,
     RowGroupingComponent,
     BootstrapThemeComponent,
+    MaterialThemeComponent,
     ClientTreeComponent,
     SummaryRowSimpleComponent,
     SummaryRowCustomTemplateComponent,
