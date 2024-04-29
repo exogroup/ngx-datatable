@@ -55,6 +55,9 @@
           <li>
             <a href="#bootstrap" (click)="state = 'bootstrap'">Bootstrap theme</a>
           </li>
+          <li>
+            <a href="#material" (click)="state = 'material'">Material theme</a>
+          </li>
         </ul>
       </li>
       <li>
@@ -216,6 +219,7 @@
     <!-- Themes -->
     <basic-dark-theme-demo *ngIf="state === 'dark'"></basic-dark-theme-demo>
     <basic-bootstrap-theme-demo *ngIf="state === 'bootstrap'"></basic-bootstrap-theme-demo>
+    <basic-material-theme-demo *ngIf="state === 'material'"></basic-material-theme-demo>
 
     <!-- Tree -->
     <full-screen-tree-demo *ngIf="state === 'fullscreen-tree'"></full-screen-tree-demo>
