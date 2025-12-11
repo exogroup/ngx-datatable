@@ -1,13 +1,13 @@
 {
   "name": "@exogroup/ngx-datatable",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "build:lib:prod": "ng build @exogroup/ngx-datatable --configuration production",
     "copy-files": "cp README.md dist/exogroup/ngx-datatable/README.md && cp LICENSE dist/exogroup/ngx-datatable/LICENSE && cpx \"src/assets/**/*\" \"dist/exogroup/ngx-datatable/assets\" && cpx \"projects/swimlane/ngx-datatable/src/lib/themes/**/*\" \"dist/exogroup/ngx-datatable/themes\"",
-    "build:css": "scss-bundle -c ./scss-bundle.config.json && node-sass -o dist/exogroup/ngx-datatable/themes dist/exogroup/ngx-datatable/themes && node-sass -o dist/exogroup/ngx-datatable dist/exogroup/ngx-datatable",
+    "build:css": "scss-bundle -c ./scss-bundle.config.json && sass dist/exogroup/ngx-datatable/themes:dist/exogroup/ngx-datatable/themes && sass dist/exogroup/ngx-datatable:dist/exogroup/ngx-datatable",
     "test": "run-p lint test:unit",
     "test:unit": "ng test @exogroup/ngx-datatable --watch=false",
     "test:watch": "ng test @exogroup/ngx-datatable",
@@ -78,6 +78,7 @@
     "karma-mocha-reporter": "^2.2.5",
     "ng-packagr": "^16.2.3",
     "npm-run-all": "^4.1.5",
+    "sass": "^1.96.0",
     "prettier": "^2.4.1",
     "pretty-quick": "^2.0.1",
     "protractor": "~7.0.0",

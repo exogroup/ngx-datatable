@@ -1,6 +1,6 @@
 {
   "name": "@exogroup/ngx-datatable",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "ngx-datatable is an Angular table grid component for presenting large and complex data.",
   "peerDependencies": {
     "@angular/common": ">=11.0.2",
@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
